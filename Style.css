@@ -45,6 +45,9 @@ img#flag {
 }
 .card.a {
     background: url(https://i.makeagif.com/media/12-21-2015/EgD1hy.gif);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 .card.cr {
     background: #ff3434;
