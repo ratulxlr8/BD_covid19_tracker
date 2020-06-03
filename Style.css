@@ -101,7 +101,7 @@ img#flag {
     margin-bottom: 30px;
   }
   body:after{
-  position: fixed;
+  position: absolute;
   content: "";
   background: #388E3C;
   width: 100%;
@@ -109,7 +109,7 @@ img#flag {
   top: 0;
 }
 body:before{
-  position: fixed;
+  position: absolute;
   content: "";
   background: #D32F2F;
   width: 100%;
