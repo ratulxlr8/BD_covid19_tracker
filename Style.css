@@ -112,3 +112,14 @@ img#flag {
   }
 
 }
+@media screen and (max-width: 384px){
+  .board {
+    column-count: 1;
+  
+  }
+   .container{
+    margin-top: 700px;
+    margin-bottom: 30px;
+  }
+
+}
