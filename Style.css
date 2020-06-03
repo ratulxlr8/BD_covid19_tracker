@@ -5,29 +5,18 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(https://pro2-bar-s3-cdn-cf.myportfolio.com/4d29a4ffc41663d7f15cc554c9e98126/81a56448f778080e29579b0be1f98e6e0fb77bfdee268ef992fd81a3434936ecb0b3ef0acd8dc3c9.gif?h=c872a6f4c0583d8895277913040b1681);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
-body:after{
-  position: absolute;
-  content: "";
-  background: #388E3C;
-  width: 100%;
-  height: 50%;
-  top: 0;
-}
-body:before{
-  position: absolute;
-  content: "";
-  background: #D32F2F;
-  width: 100%;
-  height: 50%;
-  bottom: 0;
-}
+
 .container {
   z-index: 1;
   width: 70%;
   margin: 0 auto;
     border-radius: 24px;
-    background: #F6F5F0;
+    background: rgba(255, 255, 255, 0.2);
     padding: 2%;
     box-shadow: 0px 10px 6px -8px rgba(0,0,0,0.75);
     
@@ -35,14 +24,15 @@ body:before{
 .board {
     column-count: 3;
     column-gap: 1rem;
+    
 }
 .container h2 {
     margin: 0 0 30px;
     text-align: center;
 }
 img#flag {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 .card {
     width: 84%;
@@ -53,7 +43,7 @@ img#flag {
     color: #fff;
 }
 .card.a {
-    background: #41a7ff;
+    background: url(https://i.makeagif.com/media/12-21-2015/EgD1hy.gif);
 }
 .card.cr {
     background: #ff3434;
@@ -95,31 +85,24 @@ img#flag {
     column-count: 1;
   
   }
-   .container{
-    margin-top: 650px;
+  .container{
+    margin-top: 455px;
     margin-bottom: 30px;
   }
-
+  body:after{
+  position: fixed;
+  content: "";
+  background: #388E3C;
+  width: 100%;
+  height: 50%;
+  top: 0;
 }
-@media screen and (max-width: 375px){
-  .board {
-    column-count: 1;
-  
-  }
-   .container{
-    margin-top: 700px;
-    margin-bottom: 30px;
-  }
-
+body:before{
+  position: fixed;
+  content: "";
+  background: #D32F2F;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
 }
-@media screen and (max-width: 384px){
-  .board {
-    column-count: 1;
-  
-  }
-   .container{
-    margin-top: 750px;
-    margin-bottom: 30px;
-  }
-
 }
