@@ -100,20 +100,5 @@ img#flag {
     margin-top: 350px;
     margin-bottom: 30px;
   }
-  body:after{
-  position: absolute;
-  content: "";
-  background: #388E3C;
-  width: 100%;
-  height: 50%;
-  top: 0;
-}
-body:before{
-  position: absolute;
-  content: "";
-  background: #D32F2F;
-  width: 100%;
-  height: 50%;
-  bottom: 0;
-}
+
 }
