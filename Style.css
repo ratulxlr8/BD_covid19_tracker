@@ -121,3 +121,11 @@ img#flag {
   }
 
 }
+#currentTime {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Oswald';
+  font-weight: 300;
+  color: #fff;
+  
+}
