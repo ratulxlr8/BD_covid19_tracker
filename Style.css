@@ -101,3 +101,14 @@ img#flag {
   }
 
 }
+@media screen and (max-width: 375px){
+  .board {
+    column-count: 1;
+  
+  }
+   .container{
+    margin-top: 700px;
+    margin-bottom: 30px;
+  }
+
+}
