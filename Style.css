@@ -85,24 +85,32 @@ img#flag {
     column-count: 1;
   
   }
-  .container{
-    margin-top: 455px;
+   .container{
+    margin-top: 650px;
     margin-bottom: 30px;
   }
-  body:after{
-  position: fixed;
-  content: "";
-  background: #388E3C;
-  width: 100%;
-  height: 50%;
-  top: 0;
+
 }
-body:before{
-  position: fixed;
-  content: "";
-  background: #D32F2F;
-  width: 100%;
-  height: 50%;
-  bottom: 0;
+@media screen and (max-width: 375px){
+  .board {
+    column-count: 1;
+  
+  }
+   .container{
+    margin-top: 700px;
+    margin-bottom: 30px;
+  }
+
 }
+@media screen and (max-width: 384px){
+  .board {
+    column-count: 1;
+  
+  }
+   .container{
+    margin-top: 750px;
+    margin-bottom: 30px;
+  }
+
 }
+
