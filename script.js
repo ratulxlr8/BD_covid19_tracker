@@ -12,4 +12,6 @@ fetch('https://corona.lmao.ninja/v2/countries/Bangladesh')
   document.getElementById("recovered").innerHTML = data.recovered.toLocaleString();
   document.getElementById("tests").innerHTML = data.tests.toLocaleString();
   document.getElementById("flag").src = data.countryInfo.flag;
+    document.getElementById("newCases").innerHTML = data.todayCases.toLocaleString();
+  document.getElementById("newDeath").innerHTML = data.todayDeaths.toLocaleString();
 });
