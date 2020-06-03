@@ -18,7 +18,7 @@ fetch('https://corona.lmao.ninja/v2/countries/Bangladesh')
 var dt = new Date();
 var dt = new Date();
     document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
-window.onload = function() {
+
   clock();  
     function clock() {
     var now = new Date();
@@ -42,4 +42,4 @@ window.onload = function() {
   document.getElementById('currentTime').innerHTML =     hour+':'+min+':'+sec +' '+mid ;
     setTimeout(clock, 1000);
     }
-}
+
