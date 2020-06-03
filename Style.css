@@ -7,7 +7,7 @@ body{
   justify-content: center;
   background: url(https://pro2-bar-s3-cdn-cf.myportfolio.com/4d29a4ffc41663d7f15cc554c9e98126/81a56448f778080e29579b0be1f98e6e0fb77bfdee268ef992fd81a3434936ecb0b3ef0acd8dc3c9.gif?h=c872a6f4c0583d8895277913040b1681);
   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: repeat; /* Do not repeat the image */
   background-size: cover;
 }
 
@@ -78,9 +78,6 @@ img#flag {
   }
   .card span {
     font-size: 2.5rem;
-  }
- body{
-   background-repeat: repeat;
   }
 }
 @media screen and (max-width: 500px){
