@@ -95,5 +95,9 @@ img#flag {
     column-count: 1;
   
   }
+   .container{
+    margin-top: 455px;
+    margin-bottom: 30px;
+  }
 
 }
