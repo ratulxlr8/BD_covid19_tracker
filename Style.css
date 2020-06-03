@@ -64,6 +64,12 @@ img#flag {
 .card.t {
     background: #ffa501;
 }
+.card.t1 {
+  background: #0f4e81;
+}
+.card.t2 {
+  background: #0a6152;
+}
 .card h5 {
     margin: 0;
     font-size: 1rem;
