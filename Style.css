@@ -96,7 +96,8 @@ img#flag {
   
   }
   .container{
-    margin-top: 586px;
+    position: fixed;
+    margin-top: 650px;
     margin-bottom: 30px;
   }
   body:after{
