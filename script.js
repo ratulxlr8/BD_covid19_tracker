@@ -15,3 +15,31 @@ fetch('https://corona.lmao.ninja/v2/countries/Bangladesh')
     document.getElementById("newCases").innerHTML = data.todayCases.toLocaleString();
   document.getElementById("newDeath").innerHTML = data.todayDeaths.toLocaleString();
 });
+var dt = new Date();
+var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+window.onload = function() {
+  clock();  
+    function clock() {
+    var now = new Date();
+    var TwentyFourHour = now.getHours();
+    var hour = now.getHours();
+    var min = now.getMinutes();
+    var sec = now.getSeconds();
+    var mid = 'pm';
+    if (min < 10) {
+      min = "0" + min;
+    }
+    if (hour > 12) {
+      hour = hour - 12;
+    }    
+    if(hour==0){ 
+      hour=12;
+    }
+    if(TwentyFourHour < 12) {
+       mid = 'am';
+    }     
+  document.getElementById('currentTime').innerHTML =     hour+':'+min+':'+sec +' '+mid ;
+    setTimeout(clock, 1000);
+    }
+}
